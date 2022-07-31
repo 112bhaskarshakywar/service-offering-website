@@ -1,0 +1,375 @@
+*{  height: auto;
+    color: rgb(222, 238, 251);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    
+}
+                      /* header css */
+.header{
+    width: 80%;
+    margin: auto;
+}
+
+.container2{
+    width: 100%;
+    height:auto;
+    background-color:#26C4EA;
+   
+}
+
+
+.navbar{
+    background-color: transparent;
+   /* color-scheme: black; */
+   display: flex;
+   justify-content: space-between;
+   
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+
+
+
+                      /* main css */
+
+
+.container1{
+    width: 80%;
+    height:auto;
+    background-color:transparent;
+    margin: auto;
+    
+   
+}
+/* for responsiveness */
+
+
+
+.description{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding-top: 70px;
+    padding-right: 40px;
+}
+.demoForm{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 30px;
+    
+    
+}
+.formContainer{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 30px;
+    color: black;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+.filling{
+    width: 90%;
+    background-color: transparent;
+    border-style: hidden;
+   border-bottom: 1px solid rgb(225, 235, 240);
+   color: black;
+
+    border-radius: 5px;
+    padding: 10px;
+}
+.description-info{
+    
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    /* padding: 40% 10px 40% 10px; */
+   
+}
+.description-info p{
+    /* width: 50%;    why appling this will give me my text at left */
+   font-size: 20px; 
+   color: rgb(40, 38, 38);
+    
+}
+.flexbox-data-stats{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5% ;
+}
+.stats{
+    width:200px;
+    height: fit-content;
+    text-align: center;
+    
+}
+.stats img{
+    width: 50%;
+    height: 100px;
+    border-radius: 5px;
+}
+.stats h3{
+    color: rgb(67, 66, 66);
+
+}
+.stats h4{
+    color: rgb(104, 104, 236);
+    font-size: 20px;
+}
+.subsetion-info{
+    display: flex;
+    justify-content: space-between;
+}
+#subSec-sec1{
+    background-color: rgb(33, 33, 33);
+    width: 42%;
+    height:auto;
+    border-radius: 5px;
+    float: left;
+    box-shadow: 5px 5px 5px 5px  rgba(0, 0, 0, 0.2);
+    margin-left: 5%;
+    padding: 1rem;
+    /* margin: 5%; */
+    /* margin-left: ; */
+
+}
+#subSec-sec2{
+    background-color: aliceblue;
+    width: 42%;
+    height: fit-content;
+    border-radius: 5px;
+    float: left;
+    box-shadow: 5px;
+    margin-right: 5%;
+    padding: 1rem;
+    color: black;
+    box-shadow: 5px 5px 5px 5px  rgba(0, 0, 0, 0.2);
+    /* margin: 5%; */
+}
+
+.readMore{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    padding: 20px;
+    
+}
+#desc-readMore{
+    width: 50%;
+    height: fit-content;
+    float: left;
+    text-align: center;
+    margin: auto;
+    
+    /* padding: 2%; */
+}
+#readMoreImg-sec{
+   width: 30%;
+   float: left;
+   margin: auto;
+   /* padding: 2%; */
+}
+#readMoreImg-sec img{
+    width: 100%;
+    height:300px;
+    border-radius: 10px;
+}
+.languages{
+    text-align: center;
+    height: auto;
+
+}
+.languages h2{
+    color: black;
+}
+.diff-languages{
+    width: 100%;
+    /* justify-content: center; */
+    /* margin: 0% 10% 0% 10%; */
+    display: flex;
+    /* flex: auto; */
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.diff-language-block{
+    width: 130px;
+    height: 180px;
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+    /* border: 1px solid rgb(43, 41, 41); */
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    
+
+}
+.diff-language-block h6{
+    color: black;
+}
+.diff-language-block img{
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+
+                      /* footer css */
+
+
+.footer{
+    
+    width: 100%;
+    height: auto;
+    /* padding: 2% 10% 2% 10%; */
+
+    background-color: rgb(27, 58, 77);
+}
+.container3{
+    width: 80%;
+    height:auto;
+    margin: auto;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 5% 4% 5%;
+   
+}
+.footer3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    text-decoration: none;
+   
+    /* border-radius: 5px; */
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+/* responsive css */
+
+@media ( max-width:500px) {
+    /* for navbar */
+    .navbar{
+        background-color: transparent;
+       /* color-scheme: black; */
+       display: flex;
+       flex-direction: column;
+       /* justify-content: center; */
+       align-items: flex-start;
+       
+       
+    }
+
+    /* for footer */
+    .container3{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+   /* for main */ 
+   
+   .container1{
+    width: 90%;
+   }
+   .description{
+    padding-top: 5px;
+    padding-right: 0px;
+    width: 100%;
+   }
+   .form-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+   }
+   .demoForm{
+    padding: 2px;
+    width: 100%;
+    }
+    .formContainer{
+        padding: 0px;
+        width: 100%;
+        padding: 20px;
+        padding-top: 45px;
+    }
+    .filling{
+        
+        padding: 10px;
+        
+        width: 90%;
+    }
+    .subsetion-info{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #subSec-sec1{
+        background-color: rgb(33, 33, 33);
+        width: 90%;
+
+        margin: 5%;
+        
+    
+    }
+    #subSec-sec2{
+        width: 90%;
+        margin: 5%;
+    }
+    .readMore{
+       
+        display: flex;
+       flex-direction: column;
+        align-content: flex-start;
+        
+    }
+    #desc-readMore{
+        width: 100%;
+        height: fit-content;
+        float: left;
+        text-align: center;
+        margin: auto;
+    }
+    #readMoreImg-sec{
+       width: 100%;
+    margin-top: 1rem;
+       
+    }
+    #readMoreImg-sec img{
+        width: 100%;
+        height:300px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+}
